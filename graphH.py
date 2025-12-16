@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import networkx as nx
 from search import romania, GPSProblem
+#import search_bad_heuristic as search
 
 def dibujar_grafo_con_heuristica(graph, start, goal):
     G = nx.Graph()
@@ -67,3 +68,4 @@ def dibujar_grafo_con_heuristica(graph, start, goal):
 
 if __name__ == "__main__":
     dibujar_grafo_con_heuristica(romania, "S", "B")
+
