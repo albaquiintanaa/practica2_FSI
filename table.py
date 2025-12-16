@@ -1,4 +1,5 @@
 import search
+#import search_bad_heuristic as search
 
 destinos_romania = [['A', 'B'], ['O', 'E'], ['G', 'Z'], ['N', 'D'], ['M', 'F']]
 
@@ -51,3 +52,4 @@ for i, (origen, destino) in enumerate(destinos_romania, start=1):
     print("---------------------------------------------------------")
 
     print("")
+
