@@ -1,4 +1,5 @@
 import search
+#import search_bad_heuristic as search
 
 ab = search.GPSProblem('F', 'D'
                        , search.romania)
