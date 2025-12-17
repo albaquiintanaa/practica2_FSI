@@ -20,7 +20,8 @@ Contiene los experimentos con una heurística que no garantiza el camino óptimo
 search_overestimated_heuristic.py: Implementa una heurística agresiva donde se multiplica la distancia euclídea por 4 Al sobreestimar el coste real, el algoritmo es más rápido pero pierde la admisibilidad, encontrando a veces rutas que no es la ruta óptima.
 table_overestimation.py: Script para generar la tabla de resultados específica de esta heurística y compararla.
 
-Visualización
+Carpeta graphics
+Contiene la parte visual de la práctica:
 graph.py: Visualización del grafo de Rumanía con sus costes, nodos y aristas reales (usando networkx y matplotlib).
 graphH.py: Extensión de la visualización anterior que muestra, además, el valor de la heurística (distancia euclídea) de cada ciudad respecto a un destino seleccionado.
 
