@@ -1,7 +1,7 @@
 import search
 #import search_bad_heuristic as search
 
-ab = search.GPSProblem('F', 'D'
+ab = search.GPSProblem('F', 'Z'
                        , search.romania)
 
 print("========================================")
