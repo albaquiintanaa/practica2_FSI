@@ -1,5 +1,4 @@
 import search
-#import search_bad_heuristic as search
 
 destinos_romania = [['A', 'B'], ['O', 'E'], ['G', 'Z'], ['N', 'D'], ['M', 'F']]
 
