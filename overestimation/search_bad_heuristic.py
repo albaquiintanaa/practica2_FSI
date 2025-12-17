@@ -129,8 +129,8 @@ def branch_and_bound_graph_search(problem):
     """Search the nodes with the lowest path cost first."""
     return graph_search(problem, PriorityQueue())
 
-def branch_and_bound_with_underestimation_graph_search(problem):
-    """Search the nodes with the lowest estimated total cost f(n) = g(n) + h(n) first."""
+def branch_and_bound_with_overestimation_graph_search(problem):
+    """Search nodes with a bad heuristic"""
     return graph_search(problem, PriorityQueueH(problem))
 
 
@@ -384,3 +384,4 @@ class PriorityQueueH:
         return len(self.data)
     
 # =============================================================================
+
