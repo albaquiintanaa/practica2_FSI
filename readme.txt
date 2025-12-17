@@ -1,4 +1,4 @@
-Este repositorio contiene la implementación de estrategias de búsqueda informada para resolver el problema de rutas en el mapa de Rumanía. 
+Este repositorio contiene la implementación de estrategias de búsqueda informada para resolver el problema de rutas en el mapa de Rumanía adjunto. 
 
 El proyecto compara el rendimiento de algoritmos no informados y sin tener en cuenta el peso, frente a algoritmos informados en términos de coste, tiempo y nodos explorados.
 
